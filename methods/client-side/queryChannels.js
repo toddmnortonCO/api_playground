@@ -14,7 +14,7 @@ const onlyMeAndMyFriend = async (friend) => {
     $and: [
       {
         members: {
-          $in: ["steve"],
+          $in: ["katie"],
         },
       },
       {

@@ -2,11 +2,9 @@ const { serverClient } = require("./client");
 
 const userArray = [
   { id: "scott" },
-  { id: "mark" },
   { id: "bob" },
   { id: "bill" },
   { id: "sean" },
-  { id: "steve" },
 ];
 
 const upsertMany = async (users) => {
@@ -25,4 +23,4 @@ const makeAdmin = async (user_id) => {
 };
 
 // upsertMany(userArray).then((r) => console.log(r));
-makeAdmin("steve").then((r) => console.log(r));
+makeAdmin("bill").then((r) => console.log(r));

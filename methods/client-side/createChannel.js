@@ -11,6 +11,6 @@ const createChannel = async (type, id, members, name) => {
 createChannel(
   "messaging",
   "testing-playground-03",
-  ["steve", "snoopy"],
+  ["katie", "snoopy"],
   "snoopys secret channel"
 ).then((r) => console.log(r));
