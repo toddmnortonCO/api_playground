@@ -1,4 +1,5 @@
-require("dotenv").config({ path: __dirname + "/.env" });
+// require("dotenv").config({ path: __dirname + "/.env" });
+require('dotenv').config();
 
 const app_key = process.env["APP_KEY"];
 const secret = process.env["API_SECRET"];
